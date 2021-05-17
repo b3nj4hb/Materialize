@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<center>
+
+    <body style="padding:40px; background-color: rgb(19, 19, 19);">
+        <div style="background-color: rgb(255, 255, 255); max-width: 650px;">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo"></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="#">Clientes</a></li>
+                        <li><a href="#">Cuentas</a></li>
+                        <li><a href="#">Abonos</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div style="width: 100%; height: 90px; background-color: rgba(157, 233, 206, 0.445);">
+                <p style="color:rgb(0, 148, 96); font-size: 35px;">
+                    Nueva Cuenta
+                </p>
+            </div>
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">perm_identity</i>
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">Cliente</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">shop</i>
+                            <input id="icon_telephone" type="text" class="validate">
+                            <label for="icon_telephone">Vendedor</label>
+                        </div>
+                    </div>
+                </form>
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">event</i>
+                            <input id="icon_prefix" type="date" class="validate">
+                            <label for="icon_prefix">Fecha</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <select class="browser-default">
+                                <option value="" disabled selected>Elige tu metodo de Pago</option>
+                                <option value="1">Un solo pago</option>
+                                <option value="2">2 cuotas</option>
+                                <option value="3">Mensual</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">done_outline</i>
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">Articulo</label>
+                        </div>
+                    </div>
+                </form>
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">format_list_numbered</i>
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">Cantidad</label>
+                        </div>
+                        <div class="input-field col s6"></div>
+                        <button class="btn waves-effect waves-light" type="submit" name="action">Agregar
+                            <i class="material-icons right">add</i>
+                        </button>
+                        </button>
+                    </div>
+                </form>
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <a class="waves-effect waves-light btn-large"><i class="material-icons left">done</i>AGREGAR</a>
+                        </div>
+                        <div class="input-field col s6">
+                            <a class="waves-effect waves-light btn-large"><i class="material-icons left">close</i>CANCELAR</a>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </body>
+</center>
+
+</html>
