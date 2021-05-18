@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <center>
 
@@ -32,12 +33,12 @@
                     <div class="row">
                         <div class="input-field col s6">
                             <i class="material-icons prefix">perm_identity</i>
-                            <input id="icon_prefix" type="text" class="validate">
+                            <input disabled id="icon_prefix" type="text" class="validate" placeholder="Benjamin Huamani">
                             <label for="icon_prefix">Cliente</label>
                         </div>
                         <div class="input-field col s6">
                             <i class="material-icons prefix">shop</i>
-                            <input id="icon_telephone" type="text" class="validate">
+                            <input disabled id="icon_telephone" type="text" class="validate">
                             <label for="icon_telephone">Vendedor</label>
                         </div>
                     </div>
@@ -62,9 +63,12 @@
                 <form class="col s12">
                     <div class="row">
                         <div class="input-field col s12">
-                            <i class="material-icons prefix">done_outline</i>
-                            <input id="icon_prefix" type="text" class="validate">
-                            <label for="icon_prefix">Articulo</label>
+                            <select class="browser-default">
+                                <option value="" disabled selected>Elige tu Artículo</option>
+                                <option value="1">Detergentes</option>
+                                <option value="2">Conservas</option>
+                                <option value="3">Menestras</option>
+                            </select>
                         </div>
                     </div>
                 </form>
@@ -85,10 +89,10 @@
                 <form class="col s12">
                     <div class="row">
                         <div class="input-field col s6">
-                            <a class="waves-effect waves-light btn-large"><i class="material-icons left">done</i>AGREGAR</a>
+                            <a class="waves-effect waves-light btn-large"><i class="material-icons left">done</i>ACEPTAR</a>
                         </div>
                         <div class="input-field col s6">
-                            <a class="waves-effect waves-light btn-large"><i class="material-icons left">close</i>CANCELAR</a>
+                            <a class="waves-effect waves-light red btn-large"><i class="material-icons left">close</i>CANCELAR</a>
                         </div>
                     </div>
                 </form>
